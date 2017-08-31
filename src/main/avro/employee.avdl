@@ -1,0 +1,11 @@
+@version("1.0.5")
+@namespace("com.sahajamit")
+protocol EmployeeAPI {
+  record EmployeeDto {
+    string name;
+    string joining-date;
+    string role;
+    string dept;
+    float salary;
+  }
+}
